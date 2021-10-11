@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-img=cv.imread('C:\\Users\\indra\\Pictures\\f.jpg')
+img=cv.imread('friends.jpg')
 cv.imshow('img',img)
 
 grey=cv.cvtColor(img,cv.COLOR_BGR2GRAY)
